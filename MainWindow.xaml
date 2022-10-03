@@ -8,7 +8,7 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <Button Content="Пример" HorizontalAlignment="Left" Margin="28,20,0,0" VerticalAlignment="Top" Width="98" Height="44" Click="Button_Click"/>
-        <Button Content="Самостоятельная работа" HorizontalAlignment="Left" Margin="145,20,0,0" VerticalAlignment="Top" Width="168" Height="44"/>
-
+        <Button Content="Самостоятельная работа" HorizontalAlignment="Left" Margin="145,20,0,0" VerticalAlignment="Top" Width="168" Height="44" Click="Button_Click_1"/>
+       
     </Grid>
 </Window>
