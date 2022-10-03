@@ -53,7 +53,7 @@ namespace Wpf_Yshakow_PR3
             Itog.Text += Environment.NewLine + "a = " + a.ToString();
 
             // Вычисляем 
-            double d = Math.Sqrt(1 / 2 * b * c * p*(p-a));
+            double d = Math.Sqrt( b * c * p*(p-a));
             double be = (b + c);
             double betta = (d / be);
 
