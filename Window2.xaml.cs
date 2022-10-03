@@ -55,7 +55,7 @@ namespace Wpf_Yshakow_PR3
             // Вычисляем 
             double d = Math.Sqrt( b * c * p*(p-a));
             double be = (b + c);
-            double betta = (d / be);
+            double betta = (2*d / be);
 
             //Выводим результат в окно
             Itog.Text += Environment.NewLine + "Результат BA = " + betta.ToString();
